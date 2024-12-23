@@ -7,34 +7,44 @@
             "neurons": [
                 {
                     "UId": "01",
-                    "publicKey": "pubkeyhash1",
                     "role": "validator",
                     "stake": "10.000M",
-                    "perfomance": 100,
+                    "publicKey": "pubkeyhash1",
                     "walletAddr": "wallet1",
-                    "incentive": 0.001,
-                    "dividens": 0.056,
-                    "consensus": 0.015,
-                    "alpha": 0.05,
-                    "beta": 0.07,
                     "axon": "192.168.1.1:9001",
                     "status": "Active",
+                    
+                    "metrics":{
+                        "perfomance": 100,
+                        "incentive": 0.001,
+                        "dividens": 0.056,
+                        "consensus": 0.015
+                    },
+                    "penalty_weight":{
+                        "alpha": 0.05,
+                        "beta": 0.07
+                    },
                     "block_reg_at": 112421
                 },
                 {
                     "UId": "02",
-                    "publicKey": "pubkeyhash2",
                     "role": "miner",
                     "stake": "10.000M",
-                    "perfomance": 100,
+                    "publicKey": "pubkeyhash2",
                     "walletAddr": "wallet2",
-                    "incentive": 0.002,
-                    "dividens": 0.056,
-                    "consensus": 0.015,
-                    "alpha": 0.05,
-                    "beta": 0.07,
                     "axon": "192.168.1.1:9001",
                     "status": "Active",
+                    
+                    "metrics":{
+                        "perfomance": 100,
+                        "incentive": 0.001,
+                        "dividens": 0.056,
+                        "consensus": 0.015
+                    },
+                    "penalty_weight":{
+                        "alpha": 0.05,
+                        "beta": 0.07
+                    },
                     "block_reg_at": 112421
                 }
             ],
