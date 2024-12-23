@@ -1,0 +1,66 @@
+{
+    "faudation_name": "Moderntensor",
+    "maximum_subnet": 32,
+    "subnet": [
+        {
+            "net_uid": 0,
+            "neurons": [
+                {
+                    "UId": "01",
+                    "publicKey": "pubkeyhash1",
+                    "role": "validator",
+                    "stake": "10.000M",
+                    "perfomance": 100,
+                    "walletAddr": "wallet1",
+                    "incentive": 0.001,
+                    "dividens": 0.056,
+                    "consensus": 0.015,
+                    "alpha": 0.05,
+                    "beta": 0.07,
+                    "axon": "192.168.1.1:9001",
+                    "status": "Active",
+                    "block_reg_at": 112421
+                },
+                {
+                    "UId": "02",
+                    "publicKey": "pubkeyhash2",
+                    "role": "miner",
+                    "stake": "10.000M",
+                    "perfomance": 100,
+                    "walletAddr": "wallet2",
+                    "incentive": 0.002,
+                    "dividens": 0.056,
+                    "consensus": 0.015,
+                    "alpha": 0.05,
+                    "beta": 0.07,
+                    "axon": "192.168.1.1:9001",
+                    "status": "Active",
+                    "block_reg_at": 112421
+                }
+            ],
+            "name_subnet": "root",
+            "weight": 1,
+            "emissionPool": 1000,
+            "owner_subnet_Addr": "wallet2",
+            "max_key": 256,
+            "max_validator": 10,
+            "max_miner": 246,
+            "blocks_until_next_epoch": 360,
+            "blocks_until_next_adjustment": 360,
+            "reg_slot": 3,
+            "reg_cost": "0.02M",
+            "immunity_period": 13,
+            "delta_alpha": 0.005,
+            "delta_beta": 0.007,
+            "D_upper": 1.6,
+            "D_lower": 0.5,
+            "theta": 0.4,
+            "lambda": 0.3,
+            "source_code": "..."
+        }
+    ],
+    
+    "governance_Addr": "0xabc...",
+    "min_stake": "50.000M",
+    "approval_threshold": 0.6
+}
